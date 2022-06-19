@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Sign Up Form</title>
+
+</head>
+<body>
+  <div class="bg-image"></div>
+  <div class="sign-up container">
+    <div class="sign-up-info">
+      <h1 class="sign-up-info-title">Aprenda a programar observando os outros</h1>
+      <p class="sign-up-info-text">Veja como desenvolvedores experientes resolvem problemas em tempo real. Assistir a tutoriais com script é ótimo, mas entender como os desenvolvedores pensam é inestimável.</p>
+    </div>
+    <div class="sign-up-section">
+      <div class="sign-up-alert">
+        <span class="sign-up-alert-text"><span class="sign-up-offer">Experimente grátis por 7 dias</span> e então será R$20/mês.</span>
+      </div>
+      <form action="#" id="sign-up" class="sign-up-card">
+        <div class="sign-up-card-content">
+          <div class="sign-up-input">
+            <div class="sign-up-input-content">
+              <input type="text" id="nome" class="sign-up-raw-input" placeholder="Nome">
+              <img src="./images/icon-error.svg" class="sign-up-error-icon" alt="">
+            </div>
+            <span class="sign-up-input-error"></span>
+          </div>
+          <div class="sign-up-input">
+            <div class="sign-up-input-content">
+              <input type="text" id="sobrenome" class="sign-up-raw-input" placeholder="Sobrenome">
+              <img src="./images/icon-error.svg" class="sign-up-error-icon" alt="">
+            </div>
+            <span class="sign-up-input-error"></span>
+          </div>
+          <div class="sign-up-input">
+            <div class="sign-up-input-content">
+              <input type="text" id="email" class="sign-up-raw-input" placeholder="Email">
+              <img src="./images/icon-error.svg" class="sign-up-error-icon" alt="">
+            </div>
+            <span class="sign-up-input-error"></span>
+          </div>
+          <div class="sign-up-input">
+            <div class="sign-up-input-content">
+              <input type="password" id="senha" class="sign-up-raw-input" placeholder="Senha">
+              <img src="./images/icon-error.svg" class="sign-up-error-icon" alt="">  
+            </div>
+            <span class="sign-up-input-error"></span>
+          </div>
+          <input type="submit" class="sign-up-button" value="Quero experimentar!">
+          <span class="sign-up-terms">Enviando este formulário você estará concordando com nossos <span class="sign-up-terms-highlight">Termos e Condições</span></span>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
