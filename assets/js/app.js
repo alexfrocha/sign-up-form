@@ -54,4 +54,7 @@ function mostrarOsErros() {
     })
 }
 
-form.addEventListener('submit', mostrarOsErros)
+form.addEventListener('submit', (e) => {
+    mostrarOsErros()
+    e.preventDefault()
+})
